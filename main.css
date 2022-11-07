@@ -266,6 +266,7 @@ header {
   }
 
   .about {
+      position: relative;
       flex-direction: column-reverse;
       padding: 50px 10px;
   }
@@ -514,4 +515,11 @@ header {
 .promo__text button i {
   font-size: 15px;
   margin-left: 5px;
+}
+
+.orb-canvas {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  right: 0;
 }
